@@ -36,36 +36,38 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-xl fixed-top navbar-dark my-navbar-bg">
-        <a class="navbar-brand" href="#">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <div class="col-auto ml-auto">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href=""><b>Home</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="getting-started/">Getting started</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="examples/example_mandelbrot/">Examples</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="container row mx-xl-auto mx-2">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="padding-left: 200px;" id="myNavbar">
+                <div class="col-auto ml-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href=""><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="getting-started/">Getting started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="examples/example_mandelbrot/">Examples</a>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="col-auto">
-                <ul class="navbar-nav">
-                    <li class="nav-item nav-item-github active">
-                        <a class="nav-link" href="https://github.com/lithops-cloud" title="repo"> &nbsp; <i
-                                class="fab fa-github"></i> GitHub &nbsp</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="col-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-item-github active">
+                            <a class="nav-link" href="https://github.com/lithops-cloud" title="repo"> &nbsp; <i
+                                    class="fab fa-github"></i> GitHub &nbsp</a>
+                        </li>
+                    </ul>
+                </div>
 
+            </div>
         </div>
     </nav>
 </header>
@@ -93,10 +95,12 @@
             <div class="carousel-item">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Lithops</h1>
-                        <p>Lithops is a multicloud library for running serverless jobs in Python that implements the
-                            multiprocessing interface</p>
-                        <p><a class="btn btn-lg btn-primary" href="#about" role="button">Learn more</a></p>
+                        <h1>Multicloud support</h1>
+                        <p>Lithops supports multiple functions and storage backends from a variety of providers</p>
+                        <p><a class="btn btn-lg btn-primary"
+                              href="https://github.com/lithops-cloud/lithops/tree/master/config" role="button"> <i
+                                class="fa fa-external-link-alt"></i>&nbsp; Supported
+                            backends</a></p>
                         <br>
                         <br>
                     </div>
